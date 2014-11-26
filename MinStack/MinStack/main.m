@@ -18,11 +18,14 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "MinStack.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        MinStack *stack = [MinStack sharedInstance];
+        [stack push:@"5"];
+        NSLog(@"%@", [stack pop]);
     }
     return 0;
 }
