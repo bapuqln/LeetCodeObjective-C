@@ -13,7 +13,7 @@
 @synthesize theArray;
 
 + (TwoSum *)sharedInstance{
-    static id instance = nil;
+    static id instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         instance = [[[self class] alloc] init];
@@ -30,6 +30,7 @@
 }
 
 - (NSString *)twoSumByTarget:(NSInteger)targetNum{
+    NSLog(@"input : %@, target = %ld", self.theArray, targetNum);
     NSString *result = nil;
     if (self.theArray && self.theArray.count > 0 && targetNum) {
         for (int i = 0; i < self.theArray.count; i++) {

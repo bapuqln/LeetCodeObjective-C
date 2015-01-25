@@ -69,7 +69,7 @@
 + (MinStack*)sharedInstance
 {
     static dispatch_once_t onceToken;
-    static id instance = nil;
+    static id instance;
     
     dispatch_once(&onceToken, ^{
         instance = [[[self class] alloc] init];

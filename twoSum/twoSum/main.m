@@ -28,7 +28,8 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         TwoSum *sum = [TwoSum sharedInstance];
         [sum setTheArray:[NSArray arrayWithObjects:@"1",@"2",@"3", nil]];
-       NSLog(@"%@", [sum twoSumByTarget:3]);
+        
+        NSLog(@"%@", [sum twoSumByTarget:3]);
     }
     return 0;
 }
