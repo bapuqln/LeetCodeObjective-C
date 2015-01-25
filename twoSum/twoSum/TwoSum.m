@@ -36,8 +36,9 @@
             NSInteger index1 = [[self.theArray objectAtIndex:i] integerValue];
             NSInteger numToFind = targetNum - index1;
             NSString *numStr = [NSString stringWithFormat:@"%ld", numToFind];
+            result = [NSString stringWithFormat:@"index1=%d,", i];
             if ([self.theArray containsObject:numStr]) {
-                result =[NSString stringWithFormat:@"%ld",[self.theArray indexOfObject:numStr]];
+                result = [result stringByAppendingFormat:@"index2=%ld",[self.theArray indexOfObject:numStr]];
                 break;
             }
         }
