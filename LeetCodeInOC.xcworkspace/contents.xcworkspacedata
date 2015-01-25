@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LongestSubstringWithOutRepeatingCharacters/LongestSubstringWithOutRepeatingCharacters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AddTwoNumbers/AddTwoNumbers.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:twoSum/twoSum.xcodeproj">
    </FileRef>
    <FileRef
