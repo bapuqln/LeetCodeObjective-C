@@ -12,11 +12,13 @@
  */
 
 #import <Foundation/Foundation.h>
+#import "LSWRC.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSString *theStr = @"abcabcbb";
+        NSLog(@"%@ -- longest Substring without repeating character %ld", theStr, (long)[[LSWRC sharedInstance] longestSubstringWithoutRepeatingCharacter:theStr]);
     }
     return 0;
 }

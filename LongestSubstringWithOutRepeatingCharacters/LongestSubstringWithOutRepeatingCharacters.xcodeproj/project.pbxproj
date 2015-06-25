@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		377441DE1A74C67E000A0953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377441DD1A74C67E000A0953 /* main.m */; };
+		377441E61A74C71E000A0953 /* LSWRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 377441E51A74C71E000A0953 /* LSWRC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		377441DA1A74C67E000A0953 /* LongestSubstringWithOutRepeatingCharacters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LongestSubstringWithOutRepeatingCharacters; sourceTree = BUILT_PRODUCTS_DIR; };
 		377441DD1A74C67E000A0953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		377441E41A74C71E000A0953 /* LSWRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWRC.h; sourceTree = "<group>"; };
+		377441E51A74C71E000A0953 /* LSWRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWRC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				377441DD1A74C67E000A0953 /* main.m */,
+				377441E41A74C71E000A0953 /* LSWRC.h */,
+				377441E51A74C71E000A0953 /* LSWRC.m */,
 			);
 			path = LongestSubstringWithOutRepeatingCharacters;
 			sourceTree = "<group>";
@@ -88,7 +93,7 @@
 		377441D21A74C67E000A0953 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = bapu;
 				TargetAttributes = {
 					377441D91A74C67E000A0953 = {
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				377441DE1A74C67E000A0953 /* main.m in Sources */,
+				377441E61A74C71E000A0953 /* LSWRC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +150,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -232,6 +239,7 @@
 				377441E31A74C67E000A0953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

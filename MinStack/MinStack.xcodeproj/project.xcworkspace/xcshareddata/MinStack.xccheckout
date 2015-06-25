@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E33B600-94DB-4C22-86F9-0C8FEEA140D1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MinStack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F4AFE14A3A6E61DC5755A49E0F186A19CF71BD02</key>
+		<string>https://github.com/bapuqln/LeetCodeObjective-C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MinStack/MinStack.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F4AFE14A3A6E61DC5755A49E0F186A19CF71BD02</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bapuqln/LeetCodeObjective-C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F4AFE14A3A6E61DC5755A49E0F186A19CF71BD02</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4AFE14A3A6E61DC5755A49E0F186A19CF71BD02</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LeetCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
