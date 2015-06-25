@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3792268B1B3BFDE7009BFF86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3792268A1B3BFDE7009BFF86 /* main.m */; };
+		379226931B3BFE87009BFF86 /* MergeTwoSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 379226921B3BFE87009BFF86 /* MergeTwoSortedArray.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		379226851B3BFDE7009BFF86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		379226871B3BFDE7009BFF86 /* MedianTwoSortedArrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MedianTwoSortedArrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		3792268A1B3BFDE7009BFF86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		379226911B3BFE87009BFF86 /* MergeTwoSortedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedArray.h; sourceTree = "<group>"; };
+		379226921B3BFE87009BFF86 /* MergeTwoSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeTwoSortedArray.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379226841B3BFDE7009BFF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3792267E1B3BFDE7009BFF86 = {
+			isa = PBXGroup;
+			children = (
+				379226891B3BFDE7009BFF86 /* MedianTwoSortedArrays */,
+				379226881B3BFDE7009BFF86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		379226881B3BFDE7009BFF86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379226871B3BFDE7009BFF86 /* MedianTwoSortedArrays */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379226891B3BFDE7009BFF86 /* MedianTwoSortedArrays */ = {
+			isa = PBXGroup;
+			children = (
+				3792268A1B3BFDE7009BFF86 /* main.m */,
+				379226911B3BFE87009BFF86 /* MergeTwoSortedArray.h */,
+				379226921B3BFE87009BFF86 /* MergeTwoSortedArray.m */,
+			);
+			path = MedianTwoSortedArrays;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		379226861B3BFDE7009BFF86 /* MedianTwoSortedArrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3792268E1B3BFDE7009BFF86 /* Build configuration list for PBXNativeTarget "MedianTwoSortedArrays" */;
+			buildPhases = (
+				379226831B3BFDE7009BFF86 /* Sources */,
+				379226841B3BFDE7009BFF86 /* Frameworks */,
+				379226851B3BFDE7009BFF86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedianTwoSortedArrays;
+			productName = MedianTwoSortedArrays;
+			productReference = 379226871B3BFDE7009BFF86 /* MedianTwoSortedArrays */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3792267F1B3BFDE7009BFF86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = bapu;
+				TargetAttributes = {
+					379226861B3BFDE7009BFF86 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 379226821B3BFDE7009BFF86 /* Build configuration list for PBXProject "MedianTwoSortedArrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3792267E1B3BFDE7009BFF86;
+			productRefGroup = 379226881B3BFDE7009BFF86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379226861B3BFDE7009BFF86 /* MedianTwoSortedArrays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		379226831B3BFDE7009BFF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379226931B3BFE87009BFF86 /* MergeTwoSortedArray.m in Sources */,
+				3792268B1B3BFDE7009BFF86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3792268C1B3BFDE7009BFF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3792268D1B3BFDE7009BFF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3792268F1B3BFDE7009BFF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		379226901B3BFDE7009BFF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		379226821B3BFDE7009BFF86 /* Build configuration list for PBXProject "MedianTwoSortedArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3792268C1B3BFDE7009BFF86 /* Debug */,
+				3792268D1B3BFDE7009BFF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3792268E1B3BFDE7009BFF86 /* Build configuration list for PBXNativeTarget "MedianTwoSortedArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3792268F1B3BFDE7009BFF86 /* Debug */,
+				379226901B3BFDE7009BFF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3792267F1B3BFDE7009BFF86 /* Project object */;
+}
